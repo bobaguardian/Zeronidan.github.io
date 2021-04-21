@@ -26,6 +26,7 @@ h2 {
 
 body {
     min-width: 786px;
+    width: 100%;
 }
 
 /* Header Styles */

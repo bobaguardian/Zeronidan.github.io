@@ -43,6 +43,7 @@ hr {
 
 body {
     min-width: 786px;
+    width: 100%;
 }
   
 
@@ -50,7 +51,7 @@ body {
 
 header {
     top: 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     height: 50px;
     padding-top: 10px;
