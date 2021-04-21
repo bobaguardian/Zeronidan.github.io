@@ -1,9 +1,152 @@
 <html>
- 
-<body>
-  <h1>Vivian Thach</h1>
-  <p>Hi there, welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>Vivian Thach</title>
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1 class="horizontal-padding"><a href="index.html">Vivian Thach</a></h1>
+            
+
+            <!-- Navigation Bar-->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects-heading">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- About section-->
+        <div id="about">
+            <img  class="horizontal-padding" src="resources/images/vivian.jpg">
+            <div id="about-text">
+                <h2 id="about-heading">About</h2>
+                <p>Hi there!  I'm Vivian and my pronouns are She/They. 
+                    I'm an aspiring Front End Software Developer currently looking for full time job 
+                    opportunities in the Bay Area. I absolutely love learning new things and fun fact:
+                    this website was created during a Front End Dev Path Codecademy course that I took!
+                    <br>
+                </p>
+                <p id="project-link">On my free time I like to play the guitar and practice my sk8ing tricks!  I also
+                    love anime and enjoy cosplaying at conventions in my area. :)</p>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- Projects section-->
+        <h2 id="projects-heading" class="horizontal-padding">Projects</h2>
+        <div id="projects"  class="horizontal-padding">
+            <a href="https://github.com/Zeronidan/AthenaHacks2017" target="_blank">
+                <div class="project-square lilac">
+                    <h3>SmileRun</h3>
+                    <img src="resources/images/smilerun.PNG">
+                    <p>A web application platformer game where you can control your character
+                        using facial emotions!
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Zeronidan/Fabflix" target="_blank">
+                <div class="project-square lilac">
+                    <h3>Fabflix</h3>
+                    
+                    <img src="resources/images/fabflix.PNG">
+                    <p>A parody of Netflix: e-commerce movie database site where you can
+                        sign up, login, look up movies and add them to your cart.
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Zeronidan/Web-Crawler" target="_blank">
+                <div class="project-square lilac">
+                    <h3>Python Web Crawler</h3>
+                    
+                    <img src="resources/images/web-crawler.png">
+                    <p>A web crawler that traverses through sites in a specified domain and creates
+                        a term document corpus for users to look up terms and their rankings on the
+                        pages.
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://twitter.com/P0SIB0T">
+                <div class="project-square lilac">
+                    <h3>P0SIB0T</h3>
+                    <img src="resources/images/p0sib0t.PNG">
+                    <p>A Twitter bot that tweets out positive quotes every couple of hours.</p>
+                </div>
+            </a>
+
+
+            <a href="https://github.com/Zeronidan/Boba-Guardians-Company-Page">
+                <div class="project-square lilac">
+                    <h3>Boba Guardians Company Page</h3>
+                    <img src="resources/images/the-boba-guardians.PNG">
+                    <p>A created a fictional company webpage for The Boba Guardians!  A boba product company
+                        that offers a variety of milk teas, boba products, and services.
+                    </p>
+                </div>
+            </a>
+  
+
+            <a href="https://github.com/Zeronidan/Anime-Guardians-Club-Page">
+                <div class="project-square lilac">
+                    <h3>Anime Guardians Club Page</h3>
+                    <img src="resources/images/anime-guardians.PNG">
+                    <p>I created a responsive webpage for the fictional club: The Animal Guardians.  
+                    </p>
+                </div>
+            </a>
+
+            <a href="https://github.com/Zeronidan/Credit-Card-Checker">
+                <div class="project-square lilac">
+                    <h3>Credit Card Checker</h3>
+                    <img src="resources/images/credit-card-checker.PNG">
+                    <p>A JavaScript program that validates credit cards and provides a list of 
+                        invalid credit card companies.  The program can also create a valid credit
+                        card number given an invalid one.
+                    </p>
+                </div>
+            </a>
+        
+        </div>
+
+
+        <hr>
+
+        <!-- Skills section-->
+        <h2  id="skills-heading" class="horizontal-padding margin-zero">Skills +</h2>
+        <div id="skills"  class="horizontal-padding margin-zero">
+
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C++</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Unity</li>
+                <li>Bootstrap</li>
+                <li>Git</li>
+                <li>Markdown</li>
+
+            </ul>
+
+        </div>
+        
+        <footer>
+            <h4  class="horizontal-padding">&#169; Vivian Thach</h4>
+            <a class="horizontal-padding" href="contact.html">Contact Me</a>
+        </footer>
+
+
+        <script  src="main.js"></script>
+    </body>
 </html>
