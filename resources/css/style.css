@@ -142,6 +142,9 @@ header a:active {
 }
 
 /* Projects Section */
+#projects-section {
+    background-color: #D1D7FF;
+}
 
 #projects {
     padding-top: 50px;
@@ -159,18 +162,19 @@ header a:active {
     margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: black;
 }
 
 
 
 .project-square {
     width: 400px;
-    border: 1px solid #BCC2E6;
-    border-radius: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
     text-align: center;
     margin: 50px 35px;
     padding: 20px;
- 
+    background-color: white;
 }
 
 .project-square img{
@@ -224,7 +228,7 @@ header a:active {
 }
 
 #skills-heading:hover {
-    background-color: #D1D7FF;
+    background-color: lightgray;
     text-decoration: underline;
     font-weight: bold;
 }
