@@ -1,0 +1,162 @@
+
+body{
+    font-family: helvetica, sans-serif;
+}
+
+header{
+    margin: 10px 0px;
+    padding: 75px 0px;
+    background-image: url("images/banner-background.jpg")
+    
+
+}
+
+header h1 {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    
+    
+
+}
+
+
+.colors,
+.fonts,
+.text-styles {
+    border: 2px solid gray;
+    margin: 20px 100px;
+    padding: 20px;
+}
+
+/* --- Colors content ---*/
+.colors div {
+    height: 100px;
+    width: 250px;
+    display: inline-block;
+    margin: 15px 10px;
+    text-align: center;
+    border-radius: 3px;
+    
+    
+}
+
+.colors p{
+    margin: 20px auto;
+}
+
+
+.blue-violet{
+    background-color: #7a00ff;
+    color: white;
+}
+
+.delicate-blue{
+    background-color: #006AFF;
+    color: white;
+}
+
+.mint-green{
+    background-color: #00FFB7;
+    color: black;
+}
+
+.custard-yellow{
+    background-color: #FFFC72;
+    color: black;
+}
+
+.sun-kissed-orange{
+    background-color: #FA5D01;
+    color: white;
+}
+
+.red-riot{
+    background-color: #DC143C;
+    color: white;
+}
+
+
+/* --- Fonts content ---*/
+.fonts div{
+    display: inline-block;
+    width: 500px;
+    margin-right: 30px;
+}
+
+.fonts h3 {
+    
+}
+
+.fonts p{
+    font-size: 20px;
+}
+
+.fonts .roboto p {
+    font-family: 'Roboto';
+}
+
+.fonts .cabin p {
+    font-family: 'Cabin';
+}
+
+.fonts .open-sans p {
+    font-family: "Open Sans";
+}
+
+.fonts .seaweed-script p {
+    font-family: "Seaweed Script";
+    
+}
+
+.fonts a {
+    color: white;
+    cursor: pointer;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color:  #006AFF;
+
+
+}
+.fonts a:visited{
+    color: white;
+    text-decoration:none;
+}
+
+.fonts a:hover{
+    background-color: black;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+/* --- Text Styles content ---*/
+.style-h1 {
+    font-family: "Roboto";
+    font-size: 45px;
+
+}
+
+.style-h2 {
+    font-family: "Cabin";
+    font-size: 30px;
+}
+
+.style-paragraph {
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+.style-blockquote {
+    font-family: "Seaweed Script";
+    font-size: 25px;
+    font-weight: normal;
+}
+
+
